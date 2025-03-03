@@ -1,0 +1,9 @@
+Django>=4.2,<5.0
+djangorestframework
+gunicorn
+whitenoise
+psycopg2-binary  # Only if using PostgreSQL
+mysqlclient  # Only if using MySQL
+pillow  # If working with images
+django-environ  # For environment variables
+corsheaders
