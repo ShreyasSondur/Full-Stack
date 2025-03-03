@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react"
 import axios from 'axios'
 
 function Faculty() {
-  const endpoint = "http://127.0.0.1:8000/api/faculty"
+  const endpoint ="https://shreyasu.pythonanywhere.com/api/faculty/"
   const [facultyData , setFacultyData] = useState([])
   //funcation to fetch
   const fetchData = async() =>{

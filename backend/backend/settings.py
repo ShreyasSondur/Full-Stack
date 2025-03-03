@@ -42,7 +42,6 @@ INSTALLED_APPS = [
     'api',
     #EXTERNAL
     'rest_framework'
-
 ]
 
 MIDDLEWARE = [

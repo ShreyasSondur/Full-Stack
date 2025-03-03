@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react"
 import axios from 'axios'
 
 function Dep() {
-  const endpoint = "http://127.0.0.1:8000/api/department"
+  const endpoint = "https://shreyasu.pythonanywhere.com/api/department/"
   const [DepData , setDepData] = useState([])
   //funcation to fetch
   const fetchData = async() =>{
